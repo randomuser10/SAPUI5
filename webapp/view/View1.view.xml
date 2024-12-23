@@ -1,7 +1,7 @@
 <mvc:View controllerName="projectapp.projectmds.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
+    <Page id="page" title="I am view 1">
         <content>
             <Button text="Press me" id="Buton"></Button>
             <Label text="This is a test program" id="lbale"></Label>
