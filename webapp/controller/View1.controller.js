@@ -7,8 +7,14 @@ sap.ui.define([
         onInit() {
         },
         onPress() {
-            this.getOwnerComponent().getRouter().navTo("RouteView2")
+            this.getOwnerComponent().getRouter().navTo("RouteView2");
+        },
+        onSubmt(){
+            var name = this.getView().byId("idInp").getValue();
+            var msg = "Welcome to " + name;
+            this.getView().byId("idTxt").setText(msg);
         }
+        
         
     });
 });
