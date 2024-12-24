@@ -5,6 +5,10 @@ sap.ui.define([
 
     return Controller.extend("projectapp.projectmds.controller.View1", {
         onInit() {
+        },
+        onPress() {
+            this.getOwnerComponent().getRouter().navTo("RouteView2")
         }
+        
     });
 });

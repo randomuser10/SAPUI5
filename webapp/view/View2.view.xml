@@ -1,10 +1,10 @@
 <mvc:View controllerName="projectapp.projectmds.controller.View2"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="page1" title="I am view 2">
+    <Page id="page1" title="I am view 2" showNavButton="true" navButtonPress="goBack" >
         <content>
-            <Button text="Press me" id="Buton1"></Button>
-            <Label text="This is a test program" id="lbale1"></Label>
+            <!-- <Button text="GoBack" id="Buton1"  press="goBack"></Button> -->
+            
         </content>
     </Page>
 </mvc:View>

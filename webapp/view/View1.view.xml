@@ -3,8 +3,7 @@
     xmlns="sap.m">
     <Page id="page" title="I am view 1">
         <content>
-            <Button text="Press me" id="Buton"></Button>
-            <Label text="This is a test program" id="lbale"></Label>
+            <Button text="Press me" id="Buton" press="onPress"></Button>            
         </content>
     </Page>
 </mvc:View>
