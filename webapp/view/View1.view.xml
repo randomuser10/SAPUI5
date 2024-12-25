@@ -1,26 +1,30 @@
 <mvc:View controllerName="projectapp.projectmds.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m" xmlns:l="sap.ui.layout">
-    <Page id="page" title="Employee Details">
+    <Page id="page" title="Employee">
         <content>
             <!-- <Text id="idTxt" text="Welcome to SAPUI5" textAlign="Center" width="100%" class="sapMH1FontSize"></Text>
             <Label id="lbl1" text="Employee Name :" required="true" class="sapUiMediumMarginBegin"></Label>
             <Input id="idInp" maxLength="20" width="30%" class="sapUiTinyMarginBottom"></Input>
             <Button id="idbtn1" type="Emphasized" text="Submit" class="sapUiTinyMarginBegin" press="onSubmt"></Button> -->
-            <l:Grid id="Grid1" defaultSpan="XL6 L6 M6 S12">
-            <l:content >
-            <Label id="idEmplbl0" text="Employee ID"></Label>
-            <Input id="idEmpin0"></Input>
-            <Label id="idEmplbl1" text="Employee Name"></Label>
-            <Input id="idEmpin1"></Input>
-            <Label id="idEmplbl2" text="Employee Department"></Label>
-            <Input id="idEmpin2"></Input>
-            <Label id="idEmplbl3" text="Employee Address"></Label>
-            <Input id="idEmpin3"></Input>
-            <Label id="idEmplbl4" text="Employee Age"></Label>
-            <Input id="idEmpin4"></Input>
-            </l:content>
-            </l:Grid>
+            <Panel id="idPanel1" headerText="Employee Details" expandable="true">
+                <l:Grid id="Grid1" defaultSpan="XL6 L6 M6" vSpacing="0">
+                    <l:content>
+            <!-- <Panel id="idpanl1" expandable="true"> -->
+                        <Label id="idEmpid0" text="Employee ID" class="sapUiTinyMarginBegin"></Label>
+                        <Input id="idEmpidin"></Input>
+                        <Label id="idEmpName" text="Employee Name"></Label>
+                        <Input id="idEmpNameip"></Input>
+                        <Label id="idEmplbl2" text="Employee Department"></Label>
+                        <Input id="idEmpin2"></Input>
+                        <Label id="idEmplbl3" text="Employee Designation"></Label>
+                        <Input id="idEmpin3"></Input>
+                        <Label id="idEmplbl4" text="Employee Age"></Label>
+                        <Input id="idEmpin4"></Input>
+            <!-- </Panel> -->
+                     </l:content>
+                </l:Grid>
+            </Panel>
         </content>
         <footer>
             <Bar id="NewBar" >
