@@ -17,6 +17,15 @@ sap.ui.define([
             this.getView().byId("idTxt").setTextAlign("Left");
             this.getView().byId("lbl1").setRequired(false);
             this.getView().byId("idInp").setEnabled(false);
+        },
+        onSave(){
+            var empid = this.getView().byId("idEmpidin").getValue();
+            this.getView().byId("idInput01").setInput(empid);
+            
+            var empname = this.getView("idEmpNameip").byId.getValue();
+            this.getView().byId("idEmpName02").setText(empname);
+
+
         }
         
         

@@ -1,10 +1,18 @@
 <mvc:View controllerName="projectapp.projectmds.controller.View2"
     xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m">
-    <Page id="page1" title="I am view 2" showNavButton="true" navButtonPress="goBack" >
+    xmlns="sap.m" xmlns:l="sap.ui.layout">
+    <Page id="page1" title="Employee Personal" showNavButton="true" navButtonPress="goBack" >
         <content>
-            <!-- <Button text="GoBack" id="Buton1"  press="goBack"></Button> -->
+            <Panel id="idPanel2" headerText="Employee Personal Details" expandable="true">
+                <l:Grid id="idGrid2" defaultSpan="XL3 L6 M6 S12">
+                    <Label id="idLblEid" text="Employee ID"></Label>
+                    <Input id="idInp2" editable="false"></Input>
+                    <Label id="idLblEname" text="Employee Name"></Label>
+                    <Input id="idInp3" editable="false"></Input>
+                </l:Grid>
+                
             
+            </Panel>
         </content>
     </Page>
 </mvc:View>

@@ -25,10 +25,20 @@
                      </l:content>
                 </l:Grid>
             </Panel>
+            <Panel id="idPanl2" expandable="true" headerText="Details">
+                <l:Grid id="idGrid02" vSpacing="0" defaultSpan="XL6 L6 M6 S12">
+                    <Label id="idEmpID01" text="Employee Name"></Label>
+                    <Input id="idInput01" editable="false"></Input>
+                    <Label id="idEmpName01" text="Employee Name"></Label>
+                    <Input id="idEmpName02" editable="false"></Input>
+                </l:Grid>
+            
+            </Panel>
         </content>
         <footer>
             <Bar id="NewBar" >
                 <contentRight>
+                    <Button text="Save" id="SaveBtn" press="onSave" type="Accept"></Button>
                     <Button text="Press me" id="Buton" press="onPress"></Button>
                 </contentRight>
             </Bar>
