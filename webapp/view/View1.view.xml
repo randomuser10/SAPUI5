@@ -7,7 +7,20 @@
             <Label id="lbl1" text="Employee Name :" required="true" class="sapUiMediumMarginBegin"></Label>
             <Input id="idInp" maxLength="20" width="30%" class="sapUiTinyMarginBottom"></Input>
             <Button id="idbtn1" type="Emphasized" text="Submit" class="sapUiTinyMarginBegin" press="onSubmt"></Button> -->
-
+            <l:Grid id="Grid1" defaultSpan="XL6 L6 M6 S12">
+            <l:content >
+            <Label id="idEmplbl0" text="Employee ID"></Label>
+            <Input id="idEmpin0"></Input>
+            <Label id="idEmplbl1" text="Employee Name"></Label>
+            <Input id="idEmpin1"></Input>
+            <Label id="idEmplbl2" text="Employee Department"></Label>
+            <Input id="idEmpin2"></Input>
+            <Label id="idEmplbl3" text="Employee Address"></Label>
+            <Input id="idEmpin3"></Input>
+            <Label id="idEmplbl4" text="Employee Age"></Label>
+            <Input id="idEmpin4"></Input>
+            </l:content>
+            </l:Grid>
         </content>
         <footer>
             <Bar id="NewBar" >
