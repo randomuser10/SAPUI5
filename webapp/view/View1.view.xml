@@ -1,12 +1,13 @@
 <mvc:View controllerName="projectapp.projectmds.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m">
-    <Page id="page" title="I am view 1">
+    xmlns="sap.m" xmlns:l="sap.ui.layout">
+    <Page id="page" title="Employee Details">
         <content>
-            <Text id="idTxt" text="Welcome to SAPUI5" textAlign="Center" width="100%" class="sapMH1FontSize"></Text>
+            <!-- <Text id="idTxt" text="Welcome to SAPUI5" textAlign="Center" width="100%" class="sapMH1FontSize"></Text>
             <Label id="lbl1" text="Employee Name :" required="true" class="sapUiMediumMarginBegin"></Label>
             <Input id="idInp" maxLength="20" width="30%" class="sapUiTinyMarginBottom"></Input>
-            <Button id="idbtn1" type="Emphasized" text="Submit" class="sapUiTinyMarginBegin" press="onSubmt"></Button>
+            <Button id="idbtn1" type="Emphasized" text="Submit" class="sapUiTinyMarginBegin" press="onSubmt"></Button> -->
+
         </content>
         <footer>
             <Bar id="NewBar" >
