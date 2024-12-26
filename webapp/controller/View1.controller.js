@@ -18,12 +18,12 @@ sap.ui.define([
             this.getView().byId("lbl1").setRequired(false);
             this.getView().byId("idInp").setEnabled(false);
         },
-        onSave(){
+        onSave1(){
             var empid = this.getView().byId("idEmpidin").getValue();
-            this.getView().byId("idInput01").setInput(empid);
+            this.getView().byId("idInput01").setValue(empid);
             
-            var empname = this.getView("idEmpNameip").byId.getValue();
-            this.getView().byId("idEmpName02").setText(empname);
+            var empname = this.getView().byId("idEmpNameip").getValue();
+            this.getView().byId("idEmpName02").setValue(empname);
 
 
         }

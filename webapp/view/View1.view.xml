@@ -7,38 +7,37 @@
             <Label id="lbl1" text="Employee Name :" required="true" class="sapUiMediumMarginBegin"></Label>
             <Input id="idInp" maxLength="20" width="30%" class="sapUiTinyMarginBottom"></Input>
             <Button id="idbtn1" type="Emphasized" text="Submit" class="sapUiTinyMarginBegin" press="onSubmt"></Button> -->
-            <Panel id="idPanel1" headerText="Employee Details" expandable="true">
+            <Panel id="idPanel1" headerText="Employee Details" expandable="true" expanded="true">
                 <l:Grid id="Grid1" defaultSpan="XL6 L6 M6" vSpacing="0">
                     <l:content>
             <!-- <Panel id="idpanl1" expandable="true"> -->
                         <Label id="idEmpid0" text="Employee ID" class="sapUiTinyMarginBegin"></Label>
-                        <Input id="idEmpidin"></Input>
-                        <Label id="idEmpName" text="Employee Name"></Label>
-                        <Input id="idEmpNameip"></Input>
-                        <Label id="idEmplbl2" text="Employee Department"></Label>
-                        <Input id="idEmpin2"></Input>
-                        <Label id="idEmplbl3" text="Employee Designation"></Label>
-                        <Input id="idEmpin3"></Input>
-                        <Label id="idEmplbl4" text="Employee Age"></Label>
-                        <Input id="idEmpin4"></Input>
+                        <Input id="idEmpidin" class="sapUiTinyMarginBegin"></Input>
+                        <Label id="idEmpName" text="Employee Name" class="sapUiTinyMarginBegin"></Label>
+                        <Input id="idEmpNameip" class="sapUiTinyMarginBegin"></Input>
+                        <Label id="idEmplbl2" text="Employee Department" class="SapUiTinyMarginBegin"></Label>
+                        <Input id="idEmpin2" class="sapUiTinyMarginBegin"></Input>
+                        <Label id="idEmplbl3" text="Employee Designation" class="SapUiTinyMarginBegin"></Label>
+                        <Input id="idEmpin3" class="sapUiTinyMarginBegin"></Input>
+                        <Label id="idEmplbl4" text="Employee Age" class = "sapUiTinyMarginBegin"></Label>
+                        <Input id="idEmpin4" class="sapUiTinyMarginBegin"></Input>
             <!-- </Panel> -->
                      </l:content>
                 </l:Grid>
             </Panel>
-            <Panel id="idPanl2" expandable="true" headerText="Details">
+            <Panel id="idPanl2" expandable="true" headerText="Details" expanded="true">
                 <l:Grid id="idGrid02" vSpacing="0" defaultSpan="XL6 L6 M6 S12">
-                    <Label id="idEmpID01" text="Employee Name"></Label>
-                    <Input id="idInput01" editable="false"></Input>
-                    <Label id="idEmpName01" text="Employee Name"></Label>
-                    <Input id="idEmpName02" editable="false"></Input>
-                </l:Grid>
-            
+                    <Label id="idEmpID01" text="Employee Id" class="sapUiTinyMarginBegin"></Label>
+                    <Input id="idInput01" editable="false" class="sapUiTinyMarginBegin"></Input>
+                    <Label id="idEmpName01" text="Employee Name" class="sapUiTinyMarginBegin"></Label>
+                    <Input id="idEmpName02" editable="false" class="sapUiTinyMarginBegin"></Input>
+                </l:Grid>            
             </Panel>
         </content>
         <footer>
             <Bar id="NewBar" >
                 <contentRight>
-                    <Button text="Save" id="SaveBtn" press="onSave" type="Accept"></Button>
+                    <Button text="Save" id="SaveBtn" press="onSave1" type="Accept"></Button>
                     <Button text="Press me" id="Buton" press="onPress"></Button>
                 </contentRight>
             </Bar>
