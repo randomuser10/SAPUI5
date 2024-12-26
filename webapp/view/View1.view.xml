@@ -11,30 +11,31 @@
                 <l:Grid id="Grid1" defaultSpan="L6 M6" vSpacing="0">
                     <l:content>
             <!-- <Panel id="idpanl1" expandable="true"> -->
-                        <Label id="idEmpid0" text="Employee ID" class="sapUiTinyMarginBegin"></Label>
-                        <Input id="idEmpidin" class="sapUiTinyMarginBegin"></Input>
+                        <Label id="EpIdLbl" text="Employee ID" class="sapUiTinyMarginTop"></Label>
+                        <Input id="EpIdIp" class="sapUiTinyMarginTop"></Input>
                         
-                        <Label id="idEmpName" text="Employee Name" class="sapUiTinyMarginBegin"></Label>
-                        <Input id="idEmpNameip" class="sapUiTinyMarginBegin"></Input>
+                        <Label id="EpNamLbl" text="Employee Name" class="sapUiTinyMarginTop"></Label>
+                        <Input id="EpNamIp" class="sapUiTinyMarginTop"></Input>
                         
-                        <Label id="idEmplbl2" text="Employee Department" class="sapUiTinyMarginBegin"></Label>
-                        <Input id="idEmpin2" class="sapUiTinyMarginBegin"></Input>
+                        <Label id="EpDepLbl" text="Employee Department" class="sapUiTinyMarginTop"></Label>
+                        <Input id="EpDepIp" class="sapUiTinyMarginTop"></Input>
                         
-                        <Label id="idEmplbl3" text="Employee Designation" class="sapUiTinyMarginBegin"></Label>
-                        <Input id="idEmpin3" class="sapUiTinyMarginBegin"></Input>
+                        <Label id="EpDesLbl" text="Employee Designation" class="sapUiTinyMarginTop"></Label>
+                        <Input id="EpDesIp" class="sapUiTinyMarginTop"></Input>
                         
-                        <Label id="idEmplbl4" text="Employee Age" class = "sapUiTinyMarginBegin"></Label>
-                        <Input id="idEmpin4" class="sapUiTinyMarginBegin"></Input>
+                        <Label id="EpAgeLbl" text="Employee Age" class = "sapUiTinyMarginTop"></Label>
+                        <Input id="EpAgeIp" class="sapUiTinyMarginTop"></Input>
             <!-- </Panel> -->
                      </l:content>
                 </l:Grid>
             </Panel>
             <Panel id="idPanl2" expandable="true" headerText="Details" expanded="true">
-                <l:Grid id="idGrid02" vSpacing="0" defaultSpan="XL6 L6 M6 S12">
-                    <Label id="idEmpID01" text="Employee Id" class="sapUiTinyMarginBegin"></Label>
-                    <Input id="idInput01" editable="false" class="sapUiTinyMarginBegin"></Input>
-                    <Label id="idEmpName01" text="Employee Name" class="sapUiTinyMarginBegin"></Label>
-                    <Input id="idEmpName02" editable="false" class="sapUiTinyMarginBegin"></Input>
+                <l:Grid id="idGrid02" vSpacing="0" defaultSpan="L3 M3">
+                    <Label id="EpIDLbl1" text="Employee Id" class="sapUiTinyMarginTop"></Label>
+                    <Input id="EpIdIp1" editable="false" class="sapUiTinyMarginTop"></Input>
+                    
+                    <Label id="EpNamLbl1" text="Employee Name" class="sapUiTinyMarginTop"></Label>
+                    <Input id="EpNamIp1" editable="false" class="sapUiTinyMarginTop"></Input>
                 </l:Grid>            
             </Panel>
         </content>

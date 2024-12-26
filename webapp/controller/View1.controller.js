@@ -19,11 +19,11 @@ sap.ui.define([
             this.getView().byId("idInp").setEnabled(false);
         },
         onSave1(){
-            var empid = this.getView().byId("idEmpidin").getValue();
-            this.getView().byId("idInput01").setValue(empid);
+            var empid = this.getView().byId("EpIdIp").getValue();
+            this.getView().byId("EpIdIp1").setValue(empid);
             
-            var empname = this.getView().byId("idEmpNameip").getValue();
-            this.getView().byId("idEmpName02").setValue(empname);
+            var empname = this.getView().byId("EpNamIp").getValue();
+            this.getView().byId("EpNamIp1").setValue(empname);
 
 
         }
