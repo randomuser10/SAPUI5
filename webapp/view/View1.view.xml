@@ -29,7 +29,7 @@
                      </l:content>
                 </l:Grid>
             </Panel>
-            <Panel id="idPanl2" expandable="true" headerText="Details" expanded="true">
+            <Panel id="idPanl2" expandable="true" headerText="Details" expanded="false">
                 <l:Grid id="idGrid02" vSpacing="0" defaultSpan="L3 M3">
                     <Label id="EpIDLbl1" text="Employee Id" class="sapUiTinyMarginTop"></Label>
                     <Input id="EpIdIp1" editable="false" class="sapUiTinyMarginTop"></Input>
@@ -37,6 +37,23 @@
                     <Label id="EpNamLbl1" text="Employee Name" class="sapUiTinyMarginTop"></Label>
                     <Input id="EpNamIp1" editable="false" class="sapUiTinyMarginTop"></Input>
                 </l:Grid>            
+            </Panel>
+            <Panel id="zigzag" headerText="ZigZag">
+                <l:Grid id="Grid3" vSpacing="0">
+                    <Label text="Employee Id" id="EpIdLbl3" class="sapUiTinyMarginTop">
+                        <layoutData>
+                            <l:GridData id="Griddata1" span="L3 M3"></l:GridData>
+                        </layoutData>
+                    </Label>
+                    <Input id="EpIdIp03" class="sapUiTinyMarginTop">
+                        <layoutData>
+                            <l:GridData id="GridData02" span="L9 M9"></l:GridData>
+                        </layoutData>
+                    </Input>
+
+                    <Label id="EpNam"></Label>
+                
+                </l:Grid>
             </Panel>
         </content>
         <footer>
