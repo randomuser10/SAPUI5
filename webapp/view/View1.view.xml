@@ -51,7 +51,28 @@
                         </layoutData>
                     </Input>
 
-                    <Label id="EpNam"></Label>
+                    <Label id="EpNam" text="Employee Name" class="sapUiTinyMarginTop">
+                        <layoutData>
+                            <l:GridData id="GridData03" span="L3 M3"></l:GridData>
+                        </layoutData>                    
+                    </Label>
+                    <Input id="EpNamIp03" class="sapUiTinyMarginTop">
+                        <layoutData>
+                            <l:GridData id="GridData04" span="L3 M3"></l:GridData>
+                        </layoutData>
+                    </Input>
+
+                    <Label id="EpDesLbl03" text="Employee Designation" class="sapUiTinyMarginTop" >
+                        <layoutData>
+                            <l:GridData id="GridData5" span="L3 M3">
+                            </l:GridData>
+                        </layoutData>
+                    </Label>
+                    <Input id="EpIpId03" class="sapUiTinyMarginTop">
+                        <layoutData>
+                            <l:GridData id="GridData06" span="L3 M3"></l:GridData>
+                        </layoutData>
+                    </Input>
                 
                 </l:Grid>
             </Panel>
