@@ -8,7 +8,7 @@
             <Input id="idInp" maxLength="20" width="30%" class="sapUiTinyMarginBottom"></Input>
             <Button id="idbtn1" type="Emphasized" text="Submit" class="sapUiTinyMarginBegin" press="onSubmt"></Button> -->
             <Panel id="idPanel1" headerText="Employee Details" expandable="true" expanded="true">
-                <l:Grid id="Grid1" defaultSpan="L6 M6" vSpacing="0">
+                <l:Grid id="Grid1" defaultSpan="L6 M6" vSpacing="1">
                     <l:content>
             <!-- <Panel id="idpanl1" expandable="true"> -->
                         <Label id="EpIdLbl" text="Employee ID" class="sapUiTinyMarginTop"></Label>
