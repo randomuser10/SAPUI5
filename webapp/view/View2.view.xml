@@ -7,10 +7,11 @@
             backgroundDesign="Solid">
                 <attributes>
                     <ObjectAttribute id="objatt1" title="Employee ID" text="1010"></ObjectAttribute>
-                    <ObjectAttribute id="objatt2" title="Employee Designation" text="Spider-Man"></ObjectAttribute>
-                    
-                    
+                    <ObjectAttribute id="objatt2" title="Employee Designation" text="Spider-Man"></ObjectAttribute>                  
                 </attributes>
+                <statuses>
+                    <ObjectStatus id="ObjSt1" title="Status" text="Permanant" state="Success"></ObjectStatus>
+                </statuses>
             
             </ObjectHeader>
             <Panel id="idPanel2" headerText="Employee Personal Details" expandable="true">
