@@ -4,7 +4,15 @@
     <Page id="page1" title="Employee Personal" showNavButton="true" navButtonPress="goBack" >
         <content>
             <ObjectHeader id="obj1" title="Samay" number="10101010101010101010101010" numberUnit="INR"
-            backgroundDesign="Solid"></ObjectHeader>
+            backgroundDesign="Solid">
+                <attributes>
+                    <ObjectAttribute id="objatt1" title="Employee ID" text="1010"></ObjectAttribute>
+                    <ObjectAttribute id="objatt2" title="Employee Designation" text="Spider-Man"></ObjectAttribute>
+                    
+                    
+                </attributes>
+            
+            </ObjectHeader>
             <Panel id="idPanel2" headerText="Employee Personal Details" expandable="true">
                 <l:Grid id="idGrid2" defaultSpan="XL3 L6 M6 S12">
                     <Label id="idLblEid" text="Employee ID"></Label>
