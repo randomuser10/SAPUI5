@@ -11,9 +11,14 @@
                 </attributes>
                 <statuses>
                     <ObjectStatus id="ObjSt1" title="Status" text="Permanant" state="Success"></ObjectStatus>
-                </statuses>
-            
+                </statuses>            
             </ObjectHeader>
+            <IconTabBar id="icontab1">
+                <items>
+                    <IconTabFilter id="icon1" icon="sap-icon://information"></IconTabFilter>
+                    <IconTabFilter id="icon2" icon="sap-icon://notes"></IconTabFilter>
+                </items>
+            </IconTabBar>
             <Panel id="idPanel2" headerText="Employee Personal Details" expandable="true">
                 <l:Grid id="idGrid2" defaultSpan="XL3 L6 M6 S12">
                     <Label id="idLblEid" text="Employee ID"></Label>
